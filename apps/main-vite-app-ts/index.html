@@ -5,13 +5,17 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="cache-control" content="no-cache" />
     <link rel="icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="../neo4j-app-ts/assets/Bloom_Icon_BlueBG-224e842c.svg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>qiankun OpenAI </title>
   </head>
 
   <body>
     <div id="app"></div>
+    <!-- <div id="bloom-mount"></div> -->
     <script type="module" src="/src/main.ts"></script>
+    <!-- <script type="module" crossorigin src="./assets/index-3921b0fa.js" ignore></script>
+      <link rel="stylesheet" href="./assets/index-be688f7d.css"> -->
   </body>
 </html>
 <style>
@@ -19,4 +23,62 @@
     display: block;
     margin: 0;
   }
-</style>
+          * {
+              padding: 0;
+              margin: 0;
+              -webkit-box-sizing: border-box;
+                      box-sizing: border-box;
+          }
+          html, body {
+              width: 100%;
+              height: 100%;
+          }
+          /* Generated with https://google-webfonts-helper.herokuapp.com/fonts/nunito-sans */
+          /* nunito-sans-300 - latin */
+          @font-face {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Nunito Sans Light'), local('NunitoSans-Light'),
+                url('./assets/nunito-sans-v8-latin-300-983e357f.woff2') format('woff2'),
+                url('./assets/nunito-sans-v8-latin-300-0a42bcbb.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+          }
+          /* nunito-sans-regular - latin */
+          @font-face {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
+                url('./assets/nunito-sans-v8-latin-regular-0b125629.woff2') format('woff2'),
+                url('./assets/nunito-sans-v8-latin-regular-75d981da.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+          }
+          /* nunito-sans-700 - latin */
+          @font-face {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
+                url('./assets/nunito-sans-v8-latin-700-abf55d85.woff2') format('woff2'),
+                url('./assets/nunito-sans-v8-latin-700-edc01160.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+          }
+          /* nunito-sans-800 - latin */
+          @font-face {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 800;
+            src: local('Nunito Sans ExtraBold'), local('NunitoSans-ExtraBold'),
+                url('./assets/nunito-sans-v8-latin-800-b913028c.woff2') format('woff2'),
+                url('./assets/nunito-sans-v8-latin-800-4100b1f0.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+          }
+          html {
+            font-family: "Nunito Sans", sans-serif;
+          }
+          #bloom-mount {
+            position: relative;
+            height: 100vh;
+            max-height: 100%;
+            max-width: 100%;
+            width: 100%;
+          }
+        </style>
+

@@ -26,6 +26,7 @@ export function mapList(): Menu[] {
   ]
 }
 
+
 // Form表单菜单列表
 export function webpackList(): Menu[] {
   return [
@@ -130,6 +131,6 @@ export function getMenuList(): SystemMenu[] {
     {
       Key: 'map-app',
       MenuList: mapList()
-    }
+    },
   ]
 }

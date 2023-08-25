@@ -41,9 +41,9 @@ export const getSystemList = async () => {
         systemId: 'map-app',
         name: 'map-app',
         productionEntry: '/child/map-app/',
-        developmentEntry: '//127.0.0.1:5000/',
+        developmentEntry: '//127.0.0.1:5001/',
         title: 'map-app',
-        path: '/map-app/about',
+        path: '/map-app/marker',
         normal: 'images/module/dvs-village-normal.png',
         selected: 'images/module/dvs-village-selected.png',
         enabled: true

@@ -30,7 +30,6 @@ function render(props: any = {}) {
     history: createWebHashHistory(),
     routes
   })
-
   instance = createApp(App)
   instance
     .use(ElementPlus, { locale: zhCn })
